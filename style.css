@@ -1,0 +1,20 @@
+.box {
+    margin: 0;
+    padding: 0;
+    border: 3px solid purple;
+    width: 432px;
+    height: 432px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.pixel {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    width: 25px;
+    height: 25px;
+    color: black;
+    
+}
