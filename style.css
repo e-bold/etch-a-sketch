@@ -1,20 +1,28 @@
-.box {
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
     margin: 0;
     padding: 0;
-    border: 3px solid purple;
-    width: 432px;
-    height: 432px;
+    border: 1px solid rgb(0, 0, 0);
     display: flex;
     flex-wrap: wrap;
-
+    width: 500px;
+    height: 500px;
 }
 
 .pixel {
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    border: 1px solid black;
+    color: black;
     width: 25px;
     height: 25px;
-    color: black;
-    
 }
+
+
+
